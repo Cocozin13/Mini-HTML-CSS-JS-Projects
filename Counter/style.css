@@ -1,0 +1,50 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'open_sansbold';
+  font-weight: 700;
+  background-color: #fafafa;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  font-size: 3.8em;
+  height: 150px;
+  color: #111111;
+  position: relative;
+  left: 28%;
+}
+
+.numero {
+  font-size: 6em;
+  position: relative;
+  bottom: 35px;
+  left: 45%;
+}
+
+button {
+  border: 2px solid #111111;
+  border-radius: 5px;
+  margin: 0.5em;
+  padding: 0.1em;
+  font-size: 0.85em;
+  width: 100px;
+  font-family: inherit;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+button:hover {
+  background-color: #111111;
+  color: #fafafa;
+  
+}
